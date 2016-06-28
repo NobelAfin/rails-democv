@@ -1,15 +1,17 @@
-<!DOCTYPE html>
- <html>
+
   <head> <meta name="tipo_contenido"  content="text/html;" http-equiv="content-type" charset="utf-8">
 	 <title> Curriculum Vitae</title>
 	 <form accept-charset="UTF-8">
    <link rel="stylesheet" type="text/css" href="css/style2.css">
   </head> 
- <body  class="color"><!--no acepta el background-image-->
- <div class="imhuge" > <p></p><img alt="El universo es el comienzo y todo lo que haga es un camino que me lleva hasta el">
-<section><p><h1 class="head">Emprendedor enfocado en la Innovación 
-<img src="img/i.png; " alt=""></h1> 
-<p> <img class="imgh" src=img/img.png/></p></p> <ul><li>Nombre: Luis Enrique</li>   
+ <body  class="color">
+
+ <div class="imhuge" > <!-- <img alt="El universo es el comienzo y todo lo que haga es un camino que me lleva hasta el">  Falta la imagen hazla erb-->
+<%= image_tag 'i.png',:title => 'La humanidad comenzo como una idea',:size => '80x80' %>
+<section> <p> <h1 class="head">Emprendedor enfocado en la Innovación  </h1> 
+<p> <%= image_tag 'img.png'%> </p> </p>
+
+ <ul>   <li>Nombre: Luis Enrique</li>   
 <li>Apellidos: Avelar Fernandez</li>                 
    <p>Edad:     20</p>
    Dirección: Cerro de Ameca #4591
@@ -103,12 +105,13 @@ E-mail: margiemm@hotmail.com</p></section>
  <tbody>
 
   <div><tr style="padding-left: 5px; padding-right: 5px">
-   <td class="imgc; col-15"> <img src="img/snemp.png" alt="adquieres valor y ayuda para acabar con tus miedos"></td>
+
+   <td class="imgc; col-15"> <%= image_tag 'snemp.png',:title => 'adquieres valor y ayuda para acabar con tus miedos' %> </td>
    </div>
 
-   <div><td class="imgc; col-15"> <img src="img/asem.jpeg" alt="inovadores unidos"> </td></div>
+   <div><td class="imgc; col-15"> <%= image_tag 'asem2.png',:title => 'innovadores unidos' %> </td></div>
 
-   <div><td class="imgc; col-15"> <img src="img/gem.jpeg" alt="informacion de el mundo del empendimiento"></td> 
+   <div><td class="imgc; col-15"> <%= image_tag 'gem.jpeg',:title => 'Informacion del mundo del emprendimiento'  %> </td> 
    <td></td>
    <td></td>
    <td></td>
@@ -135,4 +138,4 @@ E-mail: margiemm@hotmail.com</p></section>
  TEC de Monterrey</p>
 
  </body>
- </html>
+
