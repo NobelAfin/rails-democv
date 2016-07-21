@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   get 'paginas/index'
   get 'paginas/contacto'
   

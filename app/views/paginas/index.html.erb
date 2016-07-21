@@ -1,143 +1,111 @@
-
-  <head> <meta name="tipo_contenido"  content="text/html;" http-equiv="content-type" charset="utf-8">
+<%= javascript_include_tag 'index', 'data-turbolinks-track' => true %>
+<%= stylesheet_link_tag    'index', media: 'all', 'data-turbolinks-track' => true %>
+<meta name="tipo_contenido"  content="text/html;" http-equiv="content-type" charset="utf-8">
 	 <title> Curriculum Vitae</title>
-	 <form accept-charset="UTF-8">
-  </head> 
- <body  class="color">
-
- <div class="imhuge" > <!-- <img alt="El universo es el comienzo y todo lo que haga es un camino que me lleva hasta el">  Falta la imagen hazla erb-->
-<%= image_tag 'i.png',:title => 'La humanidad comenzo como una idea',:size => '80x80' %>
-<section><p> <pre><h1>Emprendedor enfocado en la Innovación </h1></pre>
-<p> <%= image_tag 'img.png'%> </p> </p>
-
- <ul>   <li>Nombre: Luis Enrique</li>   
-<li>Apellidos: Avelar Fernandez</li>                 
-   <p>Edad:     20</p>
-   Dirección: Cerro de Ameca #4591
-   Cuidad-País: Guadalajara, México                   
-<pre><h2>Emprendedor Lean</h2></pre>
-<ul>
-<li>Tel: 5236329957</li>   <li> Cel: 3311358384</li>
-<!-- problema numero 1 headg y head se excluyen mutuamante y el proposito es que el background color se alinee solo 5px alrededor del texto y que no abarque el 100% del width-->
-
-   <li>E-mail: enrique.avelar@jalisoft.com</li>
-    </ul></p></section> 
-<pre><h3>HABILIDADES</h3></pre>
-<section><p> <ul>
-  <li>-Liderazgo natural</li>
-  <li>-Manejo de Importación y Exportación</li>
-  <li>-Bilingüe </li>
-  <li>-Apasionado por el Design thinking</li>
-  <li>-GrowthHacker </li>
-  <li>-Fan de los Hackaton y startupweekend</li>
-  <li>-Investigador nato</li>
-  <li>-Fintech</li>
-  <li>-Programador Back End y Front End</li>
-
-  Fullstack Developer
-
-   Back End
-     .-
-     .- 
-   Front End
-     .-HTML
-     .-CSS
+	 <form accept-charset="UTF-8"> 
+<!--................SECCION 1......................
+.........BACKGROUND IMAGE CON H2 Y NAV.........-->
+<section class="section1">
+<h2 class="head1">Protegiendo lo noble del mundo...  Guiando a un mañana mejor</h2>
+</section>
 
 
-</ul></p></section>
-<pre><h3>EXPERIENCIA LABORAL</h3></pre>
-<section><p><h5 style="text-align:center; font-size: 20px">DMPoS</h5>            Sector: Servicios Innovadores de software
-<h6>Cargo ocupado: COO</h6>
-Tareas realizadas: Organizar la empresa desde 0, Reclutar talento, Mantener al talento, Desarrollo de productos         innovadores, Desarrollo de clientes, Búsqueda de información avanzada para seguir siendo 1. °, Desarrollo de competitividad y búsqueda de innovación, Contacto directo con la competencia nacional,  búsqueda de UX y UI perfecto para el fácil entendimiento e implementación sencilla con los clientes, Creación de organigrama empresarial</p>
-                                    
-<p>De 15/09/2015 a la actualidad
-Guadalajara  - México</p>
+<!--...............SECCION 2......................
+H1 CON MI FOTO Y LAS STARTUPS CON SU DESCRIPCION BASICA-->
+<section>
+<pre><h1>Enfocado en la Innovación <p class="imgh"> <%= image_tag 'img.png'%> </p> 
+</h1></pre></section>
 
-<p><h5 style="text-align:center;font-size: 20px">CIDETEC</h5>           Sector: Innovación tecnológica y emprendimiento
-<h6>Cargo ocupado: Emprendedor con proyecto</h6>
-Tareas realizadas: Encargado de incubación en un proyecto con innovación tecnológica enfocada en economía colaborativa</p>
-<p>De 20/05/2015
-Guadalajara - México</p>
+<section class="col-7" class="lmar"> <h3>AFIN</h3>
+<h4>En busca de grandes soñadores</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-<p><h5 style="text-align:center; font-size: 20px">NobelTel</h5>               Sector: Venta de teléfonos celulares
-<h6>Cargo ocupado: CPO</h6>
-Tareas realizadas: Encargado de manejar a los distribuidores internacionales y nacionales, para su correcto traslado a nuestro almacén lo que implicaba también ser el encargado de las importaciones y las devoluciones.</p>
+<h3 class="stardmpos">DMPOS</h3> 
+<h4>Democratizando el poder hacer negocios</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+</section>
 
-<p>De 08/01/2015 a 23/09/2015
-Guadalajara - México</p>
+<section class="col-3">
+<%= image_tag 'afinblanco.png', :title => 'Un peso hoy son 100 mañana',:size => '200x200'%>
+</section>
 
-<p><h5 class="afin" style="text-align:center; font-size: 20px">AFIN:</h5>
-<h6>Cargo ocupado: CEO</h6>
-Tareas realizadas: Fundador de la startup  y encargado del desarrollo en el área de valor agregado, clientes y expansión.</p>
- <p>De 15/07/2015
- Guadalajara - Mexico</p></section>
+<section class="col-3">
+<%= image_tag 'dmpos.png',:title => 'Como el servicio a domicilio del futuro deberia de ser',:size => '250x250' %>
+</section>
 
-<pre><h3>REFERENCIAS</h3></pre>
+<!--...............SECCION 3................
+H2 CON PEQUEÑA DESCRIPCION DE EN QUE CREO CON HIPERVINCULO A HISTORIA -->
 
-<section><p><h6>Ingeniero Josué Rico Uribe</h6>
-Empresa: DEmpoS
-Cargo: CEO
- E-mail: rico.josue0@gmail.com
+  <pre><h2 class="hs3">Historia</h2></pre>
+  <section class="lcol-7">
 
-<h6>Dr. Emmanuel López Neri</h6>
-Empresa: CIDETEC
-Cargo: CEO
-E-mail: elopezneri@cidetec-uvm.com 
+  <p><b>La era que tanto esperabamos los soñadores,<br>La era que tanto temian los incredulos,<br>Algunos la llaman la Era digital o la Era de la informacion,<br>Pero yo la llamo la era de las oportunidades.</b></p>
 
-<h6>Marisol Fernández Reynoso</h6>
-Empresa: Nobeltel 
-Cargo: COO
-E-mail: margiemm@hotmail.com</p></section>
+  <p>Los adultos me habian enseñado que tenia que estudiar y trabajar mucho y cuando les preguntaba "¿por que?" Respondian "para que seas feliz y tengas mucho dinero".<br>Yo no encontraba sentido en la combinacion de sus respuestas, pero segui haciendolas ¿por que existimos?, ¿cual es el proposito de la humanidad?, ¿Como puedo ser feliz?. Las respuestas siempre varian.</p>
 
-<pre><h3>FORMACIONES ADICIONALES E INTERESES</h3></pre>
+  <p>No me sentia interesado por ese futuro que buscaban para mi "los mayores".<br>Asi inicio todo, con un desconcierto, con curiosidad por conocer cual era la razon por la que la humanidad existia y cual era la razon por la que yo existia.</p>
 
-<section><pre><h5>Cursos, Diplomados, Congresos, Concursos, comunidades</h5></pre></section>
+  <p>En la Busqueda por la felicidad me preguntaba siempre cual era el limite que me debia imponer para ser lo mas feliz posible sin empezar a disminuir la felicidad de los demas.<br>Pero al ir aprendiendo sobre la naturaleza humana, tras ir estudiando Guerra por Guerra, batalla por batalla, lider por lider.<br>Me di cuenta que la humanidad aun esta muy lejos de llegar a comprender que son y debido a la falta de respuestas se creo como respuesta de los hombres miedo e incertidumbre que los llevo a la falta de pensamiento logico y el inicio al odio por falta de respuestas. <br>La historia de la naciones e imperios confirma que siempre las guerras en las mentes de sus lideres fueron para proteger a su pueblo, darles mejores condiciones de vida, demostrar que su raza o cultura son mejores, tener mas personas bajo su proteccion y algunas otras, pero todos tienen en comun que sabian en su interior que hacian lo que debian hacer para despues de logrados sus objetivos hacer lo correcto y crear un cambio en el mundo que tenga su nombre en el.</p>
 
-<section><table style="color: black; background-color: white">
- <thead><p class="thead1" class="col-4">"Dime con quien te juntas........."<p>
-  <tr>
-  </tr>
- </thead></section>
-  <!--problema numero 2 las imagenes deben abarcar el 33% de la linea
-   y quedar en orden y alineadas con el mismo tamano
-    y abajo de ellas un pequeno cuadro que diga el texto-->
- <tbody>
+  <p><b>"La mayoria de las personas tienen miedo a la muerte por que no han hecho nada en su vida" Peter Ustinov</b> <br>Entonces se decide actuar para dejar su marca, pero por desgracia no siempre se decide hacer el bien primero <br><b>"El hombre mas peligroso es aquel que tiene miedo" Ludwig Borne</b></p>
 
-  <div><tr style="padding-left: 5px; padding-right: 5px">
+  <p>Entonces fue cuando supe lo que queria ser, ayudar a la humanidad a encontrar sus respuestas tan buscadas <pre>¿por que existo? ¿cual es el proposito de mi vida? ¿Como puedo encontrar la felicidad?</pre></p>
+  
+  <p>Mi objetivo de vida es que la tuya tenga sentido</p>
 
-   <td class="imgc; col-15"> <%= image_tag 'snemp.png',:title => 'adquieres valor y ayuda para acabar con tus miedos' %> </td>
-   </div>
+  <p>Cada una de las Startups de NOBLIFIN tienen una cosa en comun, fueron creadas pensando en lograr este objetivo de vida. <br>Tienen el sentido de deber y pasion para llevar a la humanidad al siguiente viaje</p>
 
-   <div><td class="imgc; col-15"> <%= image_tag 'asem2.png',:title => 'innovadores unidos' %> </td></div>
+  <h4>El proposito es reinventar a la humanidad</h4>
 
-   <div><td class="imgc; col-15"> <%= image_tag 'gem.jpeg',:title => 'Informacion del mundo del emprendimiento'  %> </td> 
-   <td></td>
-   <td></td>
-   <td></td>
+<p>Quiero que cuando una persona digaa "yo solo soy un humano" no lo diga como una excusa, una justificacion a sus errores, que no piense mas que todo lo que hace mal es culpa de la imperfeccion humana. Que no podemos hacer nada al respecto. Que podemos quedarnos en donde estamos por que asi fuimos hechos y por lo tal no podemos hacer muchas cosas en la vida. Como si se dieran por vencidos y dijeran "soy un inutil, no puedo hacer muchas cosas por que soy imperfecto"<br><br><b>YO NO CREO ESAS RESPUESTAS, NO LAS ACEPTO</b></p>
 
-  </tr></div>
-  <div><tr>
-   <td class="col-15" style="font-family: Arial; font-size: 13px">Asistente semana nacional del emprendedor</td>
-   <td class="col-15" style="font-family: Arial; font-size: 13px">Miembro de la ASEM</td>
-   <td class="col-15" style="font-family: Arial; font-size: 13px">Admirador y seguidor del GEM</td>
-  </tr></div>
-  <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-  </tr>
+<p>Yo voy a luchar para que cuando las personas digan "YO SOY UN HUMANO" lo hagan de una manera orgullosa por que saben que eso significa que no hay nada que no podamos hacer, que los limites son una ilusion, que para nosotros no existe la palabra imposible.</p>
 
- </tbody> 
-</table>    
+<p>Yo creo firmemente que el tiempo del Homo Sapiens a terminado y la Era del HOMO EVOLUTUS esta aqui, "el hombre que se mejora a si mismo"</p>
 
-<p>Certificación: Certificación en Comercio exterior                  <table>2014             Guadalajara</table>
-  EC consultora </p>
+<p>Eso es en lo que nos estamos convirtiendo, seres lo suficientemente capaces e inteligentes que despues de innumerables generaciones perdidas al fin hemos llegado al punto en que nos conocemos lo suficiente para empezar a mejorarnos a nosotros</p>
 
-<p>Certificación: Emprendimiento en Apps                              <table>2015             Guadalajara</table>
- TEC de Monterrey</p>
+<p>Habra miedo y escepticismo pues no hay duda de que estamos en un punto medio. <br>Estamos en los ultimos dias del pasado y estamos en los primeros pasos del presente antes conocido como "futuro". <br>Vivimos en el tiempo en el que los mundos chocan y como dijo Charles Dickens <br>"Era el mejor de los tiempos, era el peor de los tiempos; <br>La edad de la sabiduria, y tambien de la locura; <br>La epoca de la luz y de las tinieblas; <br>La primavera de la esperanza y el invierno de la desesperacion; <br>Todo lo poseiamos, pero no teniamos nada; <br>En una palabra, aquella epoca era tan parecida a la actual"</p>
+</section>
+<section class="lcol-3">
+<%= image_tag 'amaz.jpeg',:title => 'Merece una oportunidad',:size => '350x250' %></section>
+<section class="lcol-3">
+<%= image_tag 'bajomar.jpeg',:title => 'Tan dificil de ver bajo el mar',:size => '250x250' %></section>
+<section class="lcol-3">
+<%= image_tag 'cascfor.jpeg',:title => 'No sabemos a que vinimos al mundo, pero podemos apreciarlo mientras lo descubrimos',:size => '250x250' %></section>
+<section class="lcol-3">
+<%= image_tag 'forte.jpeg',:title => 'Estamos  orgullosos de nuestra planeta',:size => '250x250' %></section>
+<section class="lcol-3">
+<%= image_tag 'rivfor.jpeg',:title => 'Para estar orgullosos de nosotros debemos actuar bondadosamente con la vida',:size => '250x250' %></section>
+<section class="lcol-3">
+<h3>VIDEO COLOCADO AQUI</h3>
+<iframe width="260" height="150" src="https://www.youtube.com/embed/15pOr1E6hvc" frameborder="0" allowfullscreen></iframe></section>
 
 
- <par> 
+<!--..............SECCION 4.................
+.........H2 CON LISTAS DESORDENADAS.........-->
 
- </body>
+<section>
+	<pre><h2>Habilidades</h2></pre>
+	<ul>
+		<li></li>
+	</ul>
+</section>
 
+<!--............SECCION 5..................
+...........H2 COMO TITULO CON H4 CON P Y ADEMAS IMAGENES CON DESCRIPCION..............-->
+
+<section>
+	<pre><h2>Experiencias(fracasos)</h2></pre>
+	<h4></h4>
+</section>

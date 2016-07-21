@@ -1,0 +1,87 @@
+
+/*..............SECCION 1...................
+..........IMAGEN DE PAGINA.................*/
+
+.section1{
+	background: url("bearson.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #dfdce1;
+    height: 50em;
+}
+
+.head1{
+  padding-top: 5em;
+  width: 40% left;
+  color: black;
+}
+/*................SECCION 2 .................
+.........STARTUPS Y SU DESCRIPCION..........*/
+.stardmpos{
+    padding-top: 3em;
+}
+
+.imgh{
+	float: right;
+	padding-top: 10px;
+}
+
+/*...............SECCION 3................
+H2 CON PEQUEÑA DESCRIPCION DE EN 
+QUE CREO CON HIPERVINCULO A HISTORIA.....*/
+.hs3{
+
+}
+
+.lmar{
+  padding-left: 10em;
+}
+
+
+/*..............SECCION 4.................*/
+[class*="col-"] {float: right;box-sizing: border-box;}
+.col-1{width: 10%;}
+.col-2{width: 20%;}
+.col-3{width: 30%;}
+.col-4{width: 40%;}
+.col-5{width: 50%;}
+.col-6{width: 60%;}
+.col-7{width: 70%;}
+.col-8{width: 80%;}
+.col-9{width: 90%;}
+.col-10{width: 100%;}
+.col-33{width: 33.3%;}
+.col-25{width: 25%;}
+
+[class*="lcol-"] {float: left;box-sizing: border-box;}
+.lcol-1{width: 10%;}
+.lcol-2{width: 20%;}
+.lcol-3{width: 30%;}
+.lcol-4{width: 40%;}
+.lcol-5{width: 50%;}
+.lcol-6{width: 60%;}
+.lcol-7{width: 70%;}
+.lcol-8{width: 80%;}
+.lcol-9{width: 90%;}
+.lcol-10{width: 100%;}
+.lcol-33{width: 33.3%;}
+.lcol-25{width: 25%;}
+
+.afin {
+	font-family: Verdana;
+    color: #576d94;
+}
+
+@media (max-width:300px) and (min-width:600px) {
+	body{
+		background-color: white;
+	}
+}
+ @media (min-width: 900px){
+    body{
+        background-color: white;
+    }
+}
+
+
